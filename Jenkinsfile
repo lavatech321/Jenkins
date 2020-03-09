@@ -3,12 +3,12 @@ pipeline {
          stages {
                  stage('One') {
                  steps {
-                     echo 'Hi, this is Zulaikha from edureka'
+                     echo 'This is stage One message'
                  }
                  }
                  stage('Two') {
                  steps {
-                    input('Do you want to proceed?')
+                    input('This is stage two, Do you want to proceed?')
                  }
                  }
                  stage('Three') {
@@ -18,7 +18,7 @@ pipeline {
                        }
                  }
                  steps {
-                       echo "Hello"
+                       echo "This is stage 3"
                  }
                  }
                  stage('Four') {
